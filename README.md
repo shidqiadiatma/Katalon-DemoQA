@@ -39,6 +39,33 @@ This project contains automated test cases for the DemoQA form submission featur
 3. **View Reports**:
    - After execution, go to the **Reports** tab to view detailed test results, including pass/fail status, screenshots, and logs.
 
+## Data-Driven Testing
+
+This project incorporates data-driven testing to enhance test coverage and flexibility. Data-driven tests allow running the same test case with multiple sets of input data, reducing redundancy and improving maintainability.
+
+### Data Files Used
+
+- **dataTest.dat**: A data file containing test data in a structured format for various test scenarios.
+- **dataTest.xlsx**: An Excel spreadsheet with tabular data used for parameterized testing.
+- **imageOrFile/cing1.jpg**: An image file used in tests that involve file uploads or image validations.
+
+### How to Use Data-Driven Tests
+
+1. **Configure Test Data**:
+   - Open the **Data Files** folder in the **Tests Explorer**.
+   - Double-click on a data file (e.g., `dataTest.xlsx`) to view and edit the data in Katalon Studio's built-in editor.
+
+2. **Link Data to Test Cases**:
+   - In a test case, use the **Data Binding** feature to bind variables to columns in the data file.
+   - Go to the test case, select the **Variables** tab, and bind variables to data columns.
+
+3. **Run Data-Driven Tests**:
+   - When executing a test suite that includes data-driven test cases, Katalon will iterate through each row of the data file.
+   - Ensure the test case is configured to use the data file in the **Test Data** section of the test case properties.
+
+4. **Viewing Results**:
+   - Data-driven test results will show iterations for each data row, allowing you to verify behavior across different inputs.
+
 ## Project Structure
 
 - **Test Cases**: Contains individual test cases for positive and negative scenarios.
@@ -53,7 +80,3 @@ This project contains automated test cases for the DemoQA form submission featur
 - Create a new branch for your changes.
 - Commit and push your changes.
 - Submit a pull request.
-
-## License
-
-This project is for educational purposes. Refer to Katalon Studio's licensing terms.
