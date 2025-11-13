@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PF_101_EmptyName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1abad9d9-b911-4d87-a4b4-c198457974c1</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>170a942e-0bcc-4427-84ea-deda21ed7e05</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/dataTest</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>170a942e-0bcc-4427-84ea-deda21ed7e05</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>87c3c6eb-05d6-4898-b0d1-5432a45212e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>170a942e-0bcc-4427-84ea-deda21ed7e05</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>phoneNumber</value>
+      <variableId>480a87ea-b784-40df-9041-d77466678c53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'shidqi@mail.com'</defaultValue>
+      <description></description>
+      <id>87c3c6eb-05d6-4898-b0d1-5432a45212e8</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'0856428371'</defaultValue>
+      <description></description>
+      <id>480a87ea-b784-40df-9041-d77466678c53</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+</TestCaseEntity>
