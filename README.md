@@ -1,6 +1,6 @@
 # Katalon DemoQA Project
 
-This project contains automated test cases for the DemoQA form submission feature using Katalon Studio. It includes positive and negative test scenarios to validate form inputs, submissions, and error handling.
+This project contains automated test cases for the DemoQA form submission feature using Katalon Studio version Katalon_Studio_Windows_64-10.3.2. It includes positive and negative test scenarios to validate form inputs, submissions, and error handling.
 
 ## Prerequisites
 
